@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/reset.css';
-import './styles/main.css';
-
-import Home from './components/Home';
-import Login from './components/Login';
-import Register from './components/Register';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
