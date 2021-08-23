@@ -6,7 +6,7 @@ import Box from '@material-ui/core/Box';
 const Layout = ({children}) => {
   return(
     <React.Fragment>
-        {/* <Header /> */}
+        <Header />
       <Box minHeight='100vh'>
         {children}
       </Box>
