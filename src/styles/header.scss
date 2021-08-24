@@ -1,0 +1,31 @@
+.Header {
+  height: 73;
+  padding: 0 15px;
+  margin: 0 44px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 17px;
+}
+
+.Header-logo {
+  width: 10rem;
+}
+
+.navbar {
+  width: 68vw;
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li {
+  align-items: center;
+}
