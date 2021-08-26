@@ -19,13 +19,16 @@ nav {
 .navbar {
   width: 68vw;
   list-style: none;
-}
-
-ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 li {
   align-items: center;
+}
+
+.nav-button {
+  Link {
+    padding: 5px 20px;
+  }
 }

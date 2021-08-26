@@ -13,42 +13,40 @@ const Header = () => {
               <img src={logo} alt='logo' />
             </Link>
           </div>
-          <div className='navbar'>
-            <ul>
-              <li>
-                <Link to='/about'>
-                  How We Work
-                </Link>
-              </li>
-              <li>
-                <Link to='/hire'>
-                  Hire Designers
-                </Link>
-              </li>
-              <li>
-                <Link to='pricing'>
-                  Pricing
-                </Link>
-              </li>
-              <li>
-                <Link to='/faqs'>
-                  FAQs
-                </Link>
-              </li>
-              <li>
-                <Link to='blog'>
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link to='/apply'>
-                  <Button variant="outlined" color="primary">
-                    Apply to Join
-                  </Button>
-                </Link>
-              </li>
-            </ul>
-          </div>
+          <ul className='navbar'>
+            <li>
+              <Link to='/about'>
+                How We Work
+              </Link>
+            </li>
+            <li>
+              <Link to='/hire'>
+                Hire Designers
+              </Link>
+            </li>
+            <li>
+              <Link to='pricing'>
+                Pricing
+              </Link>
+            </li>
+            <li>
+              <Link to='/faqs'>
+                FAQs
+              </Link>
+            </li>
+            <li>
+              <Link to='blog'>
+                Blog
+              </Link>
+            </li>
+            <li>
+              <Link to='/apply'>
+                <Button variant="outlined" color="primary">
+                  Apply to Join
+                </Button>
+              </Link>
+            </li>
+          </ul>
           <div className='nav-button'>
             <Link to='/apply'>
               <Button variant="contained" color="primary">
@@ -58,6 +56,7 @@ const Header = () => {
           </div>
         </nav>
       </div>
+      <hr />
     </>
   )
 }
