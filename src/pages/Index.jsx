@@ -119,7 +119,7 @@ function Home() {
                     <p>Senior developer</p>
                   </div>
                   <div>
-                    <span>$100+</span>
+                    <span><h3>$100+</h3></span>
                     <span>hour</span>
                   </div>
                   <div>

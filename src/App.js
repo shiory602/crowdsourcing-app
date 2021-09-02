@@ -4,7 +4,7 @@ import './styles/reset.scss';
 import './styles/main.scss';
 
 import Home from './pages/Index';
-import HeaderPage from './pages/ui-test/header';
+import Test from './pages/ui-test/test';
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
           <Home />
         </Route>
         {/* ui-test */}
-        <Route exact path='/header'>
-          <HeaderPage />
+        <Route exact path='/test'>
+          <Test />
         </Route>
       </Switch>
     </BrowserRouter>
